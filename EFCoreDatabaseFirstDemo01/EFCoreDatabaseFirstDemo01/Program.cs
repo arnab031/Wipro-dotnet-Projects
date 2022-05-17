@@ -20,3 +20,9 @@ app.MapRazorPages();
 
 app.Run();
 
+
+// dotnet ef dbcontext scaffold "server=localhost;database=EmpDB; User ID=sa;Password=Arnab@123" microsoft.entityframeworkcore.sqlserve
+
+// dotnet ef migrations add migration02
+
+// dotnet ef database update 

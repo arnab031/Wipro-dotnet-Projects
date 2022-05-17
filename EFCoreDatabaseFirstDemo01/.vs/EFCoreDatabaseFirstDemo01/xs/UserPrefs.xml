@@ -1,4 +1,35 @@
 ﻿<Properties StartupConfiguration="{755C51D7-4FF4-4E85-8C7D-8A74709C5BC0}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.EFCoreDatabaseFirstDemo01 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.EFCoreDatabaseFirstDemo01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EFCoreDatabaseFirstDemo01/Program.cs">
+    <Files>
+      <File FileName="EFCoreDatabaseFirstDemo01/Pages/Employees.cshtml" Line="5" Column="2" />
+      <File FileName="EFCoreDatabaseFirstDemo01/Pages/Employees.cshtml.cs" Line="15" Column="67" />
+      <File FileName="EFCoreDatabaseFirstDemo01/Pages/Shared/_Layout.cshtml" Line="29" Column="102" />
+      <File FileName="EFCoreDatabaseFirstDemo01/Program.cs" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EFCoreDatabaseFirstDemo01" expanded="True">
+            <Node name="EFCoreDatabaseFirstDemo01" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Employees.cshtml" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
