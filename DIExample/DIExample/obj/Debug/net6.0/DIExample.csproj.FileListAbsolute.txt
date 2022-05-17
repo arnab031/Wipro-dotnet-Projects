@@ -1,0 +1,15 @@
+/Users/arnabbhakta/Projects/DIExample/DIExample/bin/Debug/net6.0/DIExample
+/Users/arnabbhakta/Projects/DIExample/DIExample/bin/Debug/net6.0/DIExample.deps.json
+/Users/arnabbhakta/Projects/DIExample/DIExample/bin/Debug/net6.0/DIExample.runtimeconfig.json
+/Users/arnabbhakta/Projects/DIExample/DIExample/bin/Debug/net6.0/DIExample.dll
+/Users/arnabbhakta/Projects/DIExample/DIExample/bin/Debug/net6.0/DIExample.pdb
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.csproj.AssemblyReference.cache
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.AssemblyInfoInputs.cache
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.AssemblyInfo.cs
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.csproj.CoreCompileInputs.cache
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.dll
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/refint/DIExample.dll
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.pdb
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/DIExample.genruntimeconfig.cache
+/Users/arnabbhakta/Projects/DIExample/DIExample/obj/Debug/net6.0/ref/DIExample.dll

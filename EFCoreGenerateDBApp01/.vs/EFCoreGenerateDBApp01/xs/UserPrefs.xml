@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{7D5C1D01-27D2-4076-9F37-8297F7F5268E}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.EFCoreGenerateDBApp01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EFCoreGenerateDBApp01/EmpDBContext.cs">
+    <Files>
+      <File FileName="EFCoreGenerateDBApp01/EmpModel.cs" Line="5" Column="22" />
+      <File FileName="EFCoreGenerateDBApp01/Program.cs" Line="6" Column="43" />
+      <File FileName="EFCoreGenerateDBApp01/EmpDBContext.cs" Line="26" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EFCoreGenerateDBApp01" expanded="True">
+            <Node name="EFCoreGenerateDBApp01" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

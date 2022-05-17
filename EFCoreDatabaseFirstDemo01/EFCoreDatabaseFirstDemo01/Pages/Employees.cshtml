@@ -1,0 +1,26 @@
+﻿@page
+@model EFCoreDatabaseFirstDemo01.Pages.EmployeesModel
+@{
+    List<TblEmployee> Employees = ViewBag.Employees;
+ }
+
+<h1>List of Employees</h1>
+<table class="table table-bordered">
+    <thead>
+        <th>ID</th>
+        <th>EName</th>
+        <th>Job</th>
+        <th>Salary</th>
+    </thead>
+    <tbody>
+        @foreach(TblEmployee e in Employees)
+            {
+                <tr>
+                    <td>@e.Id</td>
+                    <td>@e.Ename</td>
+                    <td>@e.Job</td>
+                    <td>@e.Salary</td>
+                </tr>
+            }
+    </tbody>
+</table>
