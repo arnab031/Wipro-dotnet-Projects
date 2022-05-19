@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{69E3C81F-B742-4934-8E73-C112702F0991}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EfCoreApp01/Program.cs">
+    <Files>
+      <File FileName="EfCoreApp01/Pages/Index.cshtml" Line="24" Column="21" />
+      <File FileName="EfCoreApp01/Pages/Index.cshtml.cs" Line="18" Column="63" />
+      <File FileName="EfCoreApp01/Program.cs" Line="8" Column="1" />
+      <File FileName="EfCoreApp01/Pages/Edit.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EfCoreApp01" expanded="True">
+            <Node name="EfCoreApp01" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EfCoreApp01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

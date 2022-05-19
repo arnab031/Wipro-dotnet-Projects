@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    List<TblEmployee> Employees = ViewBag.Employees;
+}
+
+<h1>List of Employees</h1>
+<table>
+    <thead>
+        <th>ID</th>
+        <th>EName</th>
+        <th>Job</th>
+        <th>Salary</th>
+        <th>Operations</th>
+    </thead>
+    <tbody>
+        @foreach(TblEmployee e in Employees)
+            {
+                <tr>
+                    <td>@e.Id</td>
+                    <td>@e.Job.</td>
+                    <td>@e.Salary</td>
+                    
+                </tr>
+            }
+    </tbody>
+</table>
+
