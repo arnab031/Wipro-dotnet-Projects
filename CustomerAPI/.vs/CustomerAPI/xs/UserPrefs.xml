@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{212D524F-C322-4FD8-AA3F-73631AC6F19F}|Default">
+  <MonoDevelop.Ide.ItemProperties.CustomerAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerAPI/CustomerBO.cs">
+    <Files>
+      <File FileName="CustomerAPI/CustomerModel.cs" Line="8" Column="18" />
+      <File FileName="CustomerAPI/CustomerBO.cs" Line="10" Column="53" />
+      <File FileName="CustomerAPI/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CustomerAPI" expanded="True">
+            <Node name="CustomerAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
