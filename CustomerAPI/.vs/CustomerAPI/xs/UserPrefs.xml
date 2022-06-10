@@ -8,8 +8,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="CustomerAPI/CustomerBO.cs">
     <Files>
       <File FileName="CustomerAPI/CustomerModel.cs" Line="8" Column="18" />
-      <File FileName="CustomerAPI/CustomerBO.cs" Line="10" Column="53" />
+      <File FileName="CustomerAPI/CustomerBO.cs" Line="74" Column="48" />
       <File FileName="CustomerAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="CustomerAPI/Controllers/CustomerController.cs" Line="40" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

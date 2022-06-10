@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{76603F69-12B4-4EDF-86C4-CE05361F003E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="testProject1/Pages/Login.cshtml.cs">
+    <Files>
+      <File FileName="testProject1/Pages/Shared/_Layout.cshtml" Line="11" Column="7" />
+      <File FileName="testProject1/Pages/Login.cshtml" Line="27" Column="1" />
+      <File FileName="testProject1/Pages/Login.cshtml.cs" Line="21" Column="2" />
+      <File FileName="testProject1/Pages/Shared/_Layout.cshtml.css" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="testProject1" expanded="True">
+            <Node name="testProject1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+                <Node name="Login.cshtml" expanded="True">
+                  <Node name="Login.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.testProject1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@using (Html.BeginForm())
+{
+    <button name="b1" value="create">Create</button>
+    <span>|</span>
+    <button name="b1" value="retreive"> Retreive</button>
+    <span>|</span>
+    <button name="b1" value="update">Update</button>
+    <span>|</span>
+    <button name="b1" value="delete">Delete</button>
+    <span>|</span>
+}
+<hr />
+
+@ViewBag.Message

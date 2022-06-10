@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{505116D1-3237-4ABD-914A-355A40C7EA50}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment_1/Pages/Index.cshtml.cs">
+    <Files>
+      <File FileName="Assignment_1/Pages/Index.cshtml" Line="11" Column="18" />
+      <File FileName="Assignment_1/Pages/Index.cshtml.cs" Line="35" Column="51" />
+      <File FileName="Assignment_1/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment_1" expanded="True">
+            <Node name="Assignment_1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Index.cshtml" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assignment__1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

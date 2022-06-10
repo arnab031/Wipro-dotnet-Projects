@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{91546A75-9AA4-4B62-A7A5-79A093D4DD71}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EfCoreApp04/Models/EmployeeDBContext.cs">
+    <Files>
+      <File FileName="EfCoreApp04/EmployeeDBContext.cs" Line="29" Column="1" />
+      <File FileName="EfCoreApp04/TblCourse.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EfCoreApp04" expanded="True">
+            <Node name="EfCoreApp04" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="TblCourse.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EfCoreApp04 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{DE35BEF0-C1E3-43C5-847E-17862E7AD9CF}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EFCoreApp03/StudentModel.cs">
+    <Files>
+      <File FileName="EfCoreApp03/appsettings.json" Line="14" Column="1" />
+      <File FileName="EFCoreApp03/CollegeDBContext.cs" Line="24" Column="1" />
+      <File FileName="EFCoreApp03/StudentModel.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EFCoreApp03" expanded="True">
+            <Node name="EFCoreApp03" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EfCoreApp03 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.EFCoreApp03 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+</Properties>

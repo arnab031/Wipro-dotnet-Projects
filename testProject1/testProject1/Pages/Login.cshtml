@@ -1,0 +1,27 @@
+﻿@page
+@model testProject1.Pages.LoginModel
+@{
+}
+<h1>Login</h1>
+@using (Html.BeginForm())
+{
+    @Html.Label("t1", "Enter Name: ");
+    @Html.TextBox("t1")
+    <br />
+    @Html.Label("Gender");
+    <br />
+    @Html.RadioButton("gender", "Mr.")
+    <span>  </span>
+    @Html.Label("gender", "Male")
+    <span>  </span>
+    @Html.RadioButton("gender", "Mrs.")
+    <span>  </span>
+    @Html.Label("gender", "Female")
+
+    <br />
+    <button>Click</button>
+
+}
+<br />
+@ViewBag.Message
+
