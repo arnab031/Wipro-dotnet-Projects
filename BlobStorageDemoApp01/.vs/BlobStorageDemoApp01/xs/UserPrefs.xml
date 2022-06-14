@@ -1,4 +1,42 @@
 ﻿<Properties StartupConfiguration="{07B24D93-1526-4630-8173-8C81B847795B}|Default">
-  <MonoDevelop.Ide.ItemProperties.BlobStorageDemoApp01 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlobStorageDemoApp01/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="BlobStorageDemoApp01/appsettings.json" Line="11" Column="1" />
+      <File FileName="BlobStorageDemoApp01/Models/IBlobService.cs" Line="18" Column="6" />
+      <File FileName="BlobStorageDemoApp01/Models/BlobService.cs" Line="69" Column="6" />
+      <File FileName="BlobStorageDemoApp01/Controllers/BlobFilesController.cs" Line="21" Column="10" />
+      <File FileName="BlobStorageDemoApp01/Program.cs" Line="6" Column="76" />
+      <File FileName="BlobStorageDemoApp01/Views/Home/Index.cshtml" Line="10" Column="1" />
+      <File FileName="BlobStorageDemoApp01/Views/Shared/_Layout.cshtml" Line="29" Column="131" />
+      <File FileName="BlobStorageDemoApp01/Views/BlobFiles/Index.cshtml" Line="23" Column="7" />
+      <File FileName="BlobStorageDemoApp01/Views/BlobFiles/AddFile.cshtml" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlobStorageDemoApp01" expanded="True">
+            <Node name="BlobStorageDemoApp01" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="BlobFiles" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlobStorageDemoApp01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "xB5V3knfETHXVN05lYbL64hny6b73WkTMNryxcPKHh8cXOwYDXsV8oGq3Dce6eJywig/SAvcwA7SnX96+CDKJQ==",
+  "success": true,
+  "projectFilePath": "/Users/arnabbhakta/Projects/QueueStorageDemo01/QueueStorageDemo01/QueueStorageDemo01.csproj",
+  "expectedPackageFiles": [
+    "/Users/arnabbhakta/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/azure.storage.common/12.11.0/azure.storage.common.12.11.0.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/azure.storage.queues/12.10.0/azure.storage.queues.12.10.0.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/system.diagnostics.diagnosticsource/4.6.0/system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/system.io.hashing/6.0.0/system.io.hashing.6.0.0.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/Users/arnabbhakta/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

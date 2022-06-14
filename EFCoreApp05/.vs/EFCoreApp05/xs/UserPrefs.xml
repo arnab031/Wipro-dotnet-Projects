@@ -1,11 +1,17 @@
 ﻿<Properties StartupConfiguration="{51F3A521-6E51-4C2C-A217-3002E8BDB9A0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EFCoreApp05/Controllers/CoursesController.cs">
+  <MonoDevelop.Ide.ItemProperties.EFCoreApp05 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EFCoreApp05/Program.cs">
     <Files>
       <File FileName="EFCoreApp05/Views/Shared/_Layout.cshtml" Line="29" Column="115" />
       <File FileName="EFCoreApp05/Models/EmployeeDBContext.cs" Line="1" Column="1" />
       <File FileName="EFCoreApp05/Views/Courses/Index.cshtml" Line="1" Column="1" />
       <File FileName="EFCoreApp05/Controllers/CoursesController.cs" Line="68" Column="17" />
       <File FileName="EFCoreApp05/Program.cs" Line="23" Column="1" />
+      <File FileName="EFCoreApp05/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,6 +24,7 @@
                 <Node name="Courses" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -27,11 +34,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EFCoreApp05 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

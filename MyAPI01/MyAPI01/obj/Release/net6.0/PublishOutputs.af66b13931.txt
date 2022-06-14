@@ -1,0 +1,11 @@
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/MyAPI01
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/appsettings.Development.json
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/appsettings.json
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/MyAPI01.dll
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/MyAPI01.deps.json
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/MyAPI01.runtimeconfig.json
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/MyAPI01.pdb
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/Microsoft.OpenApi.dll
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/Swashbuckle.AspNetCore.Swagger.dll
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/arnabbhakta/Projects/MyAPI01/MyAPI01/obj/Release/net6.0/PubTmp/Out/Swashbuckle.AspNetCore.SwaggerUI.dll
