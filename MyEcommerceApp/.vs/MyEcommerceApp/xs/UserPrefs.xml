@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{6B262609-C349-4979-956D-124C8DB7964C}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyEcommerceApp/Program.cs">
+    <Files>
+      <File FileName="MyEcommerceApp/Program.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyEcommerceApp" expanded="True">
+            <Node name="MyEcommerceApp" expanded="True">
+              <Node name="Controllers" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyEcommerceApp FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

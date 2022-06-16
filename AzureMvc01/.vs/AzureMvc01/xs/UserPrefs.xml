@@ -1,14 +1,38 @@
 ﻿<Properties StartupConfiguration="{8D6952EB-0BA7-4C73-B460-4E9E59BC9623}|Default">
-  <MonoDevelop.Ide.ItemProperties.AzureMvc01 FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AzureMvc01 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AzureMvc01/Properties/launchSettings.json">
+    <Files>
+      <File FileName="AzureMvc01/Models/Employee.cs" Line="7" Column="5" />
+      <File FileName="AzureMvc01/Views/Shared/_Layout.cshtml" Line="26" Column="98" />
+      <File FileName="AzureMvc01/appsettings.json" Line="10" Column="175" />
+      <File FileName="AzureMvc01/Program.cs" Line="21" Column="18" />
+      <File FileName="AzureMvc01/Data/EmployeeDBContext.cs" Line="3" Column="19" />
+      <File FileName="AzureMvc01/Controllers/EmployeesController.cs" Line="1" Column="1" />
+      <File FileName="AzureMvc01/Controllers/DepartmentsController.cs" Line="1" Column="1" />
+      <File FileName="AzureMvc01/Models/Department.cs" Line="4" Column="28" />
+      <File FileName="AzureMvc01/Properties/launchSettings.json" Line="24" Column="47" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AzureMvc01" expanded="True" selected="True" />
+          <Node name="AzureMvc01" expanded="True">
+            <Node name="AzureMvc01" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -16,6 +40,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

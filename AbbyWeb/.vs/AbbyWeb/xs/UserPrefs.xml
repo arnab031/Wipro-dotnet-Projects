@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{89B0C0A7-0C6F-417E-8F87-08F49FD1346C}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AbbyWeb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AbbyWeb/Program.cs">
+    <Files>
+      <File FileName="AbbyWeb/Pages/Categories/Index.cshtml" Line="13" Column="55" />
+      <File FileName="AbbyWeb/Pages/Categories/Index.cshtml.cs" Line="24" Column="39" />
+      <File FileName="AbbyWeb/Pages/Shared/_Layout.cshtml" Line="40" Column="98" />
+      <File FileName="AbbyWeb/Pages/Categories/Create.cshtml" Line="13" Column="44" />
+      <File FileName="AbbyWeb/Pages/Categories/Create.cshtml.cs" Line="36" Column="46" />
+      <File FileName="AbbyWeb/Model/Category.cs" Line="13" Column="21" />
+      <File FileName="AbbyWeb/Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="AbbyWeb/Properties/launchSettings.json" Line="8" Column="6" />
+      <File FileName="AbbyWeb/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AbbyWeb" expanded="True">
+            <Node name="AbbyWeb" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Categories" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
