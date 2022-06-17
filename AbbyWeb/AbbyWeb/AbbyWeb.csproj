@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -31,8 +31,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Data\" />
-    <Folder Include="Pages\Categories\" />
+    <Folder Include="Pages\Admin\Categories\" />
+    <Folder Include="Pages\Customer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Abby.DataAccess\Abby.DataAccess.csproj" />
+    <ProjectReference Include="..\Abby.Models\Abby.Models.csproj" />
   </ItemGroup>
 </Project>

@@ -3329,6 +3329,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Abby.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Abby.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Abby.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abby.DataAccess.dll": {}
+        }
+      },
+      "Abby.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Abby.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abby.Models.dll": {}
+        }
       }
     }
   },
@@ -10105,10 +10130,22 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Abby.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Abby.DataAccess/Abby.DataAccess.csproj",
+      "msbuildProject": "../Abby.DataAccess/Abby.DataAccess.csproj"
+    },
+    "Abby.Models/1.0.0": {
+      "type": "project",
+      "path": "../Abby.Models/Abby.Models.csproj",
+      "msbuildProject": "../Abby.Models/Abby.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Abby.DataAccess >= 1.0.0",
+      "Abby.Models >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.6",
       "Microsoft.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
@@ -10119,30 +10156,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/arnabbhakta/.nuget/packages/": {}
+    "C:\\Users\\ARNAB-PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arnabbhakta/Projects/AbbyWeb/AbbyWeb/AbbyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\AbbyWeb\\AbbyWeb.csproj",
       "projectName": "AbbyWeb",
-      "projectPath": "/Users/arnabbhakta/Projects/AbbyWeb/AbbyWeb/AbbyWeb.csproj",
-      "packagesPath": "/Users/arnabbhakta/.nuget/packages/",
-      "outputPath": "/Users/arnabbhakta/Projects/AbbyWeb/AbbyWeb/obj/",
+      "projectPath": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\AbbyWeb\\AbbyWeb.csproj",
+      "packagesPath": "C:\\Users\\ARNAB-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\AbbyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/arnabbhakta/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ARNAB-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\Abby.DataAccess\\Abby.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\Abby.DataAccess\\Abby.DataAccess.csproj"
+            },
+            "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\Abby.Models\\Abby.Models.csproj": {
+              "projectPath": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\Abby.Models\\Abby.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -10204,7 +10250,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
