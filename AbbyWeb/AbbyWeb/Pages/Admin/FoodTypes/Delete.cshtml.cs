@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Abby.DataAccess.Data;
+using Abby.DataAccess.Repository.IRepository;
 using Abby.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -12,26 +13,27 @@ namespace AbbyWeb.Pages.Admin.FoodTypes
     [BindProperties]
     public class DeleteModel : PageModel
     {
-        private readonly ApplicationDbContext _db;
-        
+        private readonly IUnitOfWork _unitOfWork;
+
         public FoodType FoodType { get; set; }
 
-        public DeleteModel(ApplicationDbContext db)
+        public DeleteModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
+       
         public void OnGet(int id)
         {
-            FoodType = _db.FoodType.FirstOrDefault(u=>u.Id==id);
+            FoodType = _unitOfWork.FoodType.GetFirstOrDefault(u=>u.Id==id);
         }
 
         public async Task<IActionResult> OnPost()
         {
-            var foodTypeFromDb = _db.Category.Find(FoodType.Id);
+            var foodTypeFromDb = _unitOfWork.FoodType.GetFirstOrDefault(u => u.Id == FoodType.Id);
             if (foodTypeFromDb != null)
             {
-                _db.Category.Remove(foodTypeFromDb);
-                await _db.SaveChangesAsync();
+                _unitOfWork.FoodType.Remove(foodTypeFromDb);
+                _unitOfWork.Save();
                 TempData["success"] = "Food Type deleted successfully";
                 return RedirectToPage("Index");
             }
