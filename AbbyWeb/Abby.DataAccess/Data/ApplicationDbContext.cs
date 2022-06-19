@@ -16,6 +16,8 @@ namespace Abby.DataAccess.Data
 		public DbSet<MenuItem> MenuItem { get; set; }
 
 		public DbSet<ApplicationUser> ApplicationUser { get; set; }
+
+		public DbSet<ShoppingCart> ShoppingCart { get; set; }
 	}
 }
 
