@@ -1,9 +1,16 @@
-﻿using Abby.DataAccess.Repository;
+using Abby.DataAccess.Repository;
 using Abby.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Abby.DataAccess.Data;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Abby.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddIdentity<IdentityUser,IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 // Add services to the container.
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
@@ -29,6 +36,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();;
 
 app.UseAuthorization();
 
