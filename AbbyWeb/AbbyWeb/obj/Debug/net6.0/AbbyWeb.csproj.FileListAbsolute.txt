@@ -1164,3 +1164,4 @@ C:\Users\ARNAB-PC\source\repos\Wipro-dotnet-Projects\AbbyWeb\AbbyWeb\bin\Debug\n
 C:\Users\ARNAB-PC\source\repos\Wipro-dotnet-Projects\AbbyWeb\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\ARNAB-PC\source\repos\Wipro-dotnet-Projects\AbbyWeb\AbbyWeb\bin\Debug\net6.0\Abby.Utility.dll
 C:\Users\ARNAB-PC\source\repos\Wipro-dotnet-Projects\AbbyWeb\AbbyWeb\bin\Debug\net6.0\Abby.Utility.pdb
+C:\Users\ARNAB-PC\source\repos\Wipro-dotnet-Projects\AbbyWeb\AbbyWeb\bin\Debug\net6.0\Stripe.net.dll

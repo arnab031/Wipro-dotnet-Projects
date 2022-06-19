@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sFxGhGHDS+XKwjbWcdExk78I/1JFR7j8W8GFudwWqJkQBldc5dsALUyekq46n6yv4PM38BiT9HToEpHjjBv/AQ==",
+  "dgSpecHash": "u9IVRo2OWNDF5xS1ACWpc2LkfScxbjYhJRPpYJ/RmUa2YRY+HCiJMw39GSRM63hAhomsyjtnGQ/xi3rJ2z6HsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\AbbyWeb\\AbbyWeb.csproj",
   "expectedPackageFiles": [
@@ -135,6 +135,7 @@
     "C:\\Users\\ARNAB-PC\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\ARNAB-PC\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\ARNAB-PC\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\ARNAB-PC\\.nuget\\packages\\stripe.net\\39.119.0\\stripe.net.39.119.0.nupkg.sha512",
     "C:\\Users\\ARNAB-PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.0\\swashbuckle.aspnetcore.6.3.0.nupkg.sha512",
     "C:\\Users\\ARNAB-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.0\\swashbuckle.aspnetcore.swagger.6.3.0.nupkg.sha512",
     "C:\\Users\\ARNAB-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.0\\swashbuckle.aspnetcore.swaggergen.6.3.0.nupkg.sha512",

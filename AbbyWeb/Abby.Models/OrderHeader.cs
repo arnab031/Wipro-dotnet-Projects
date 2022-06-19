@@ -38,7 +38,8 @@ namespace Abby.Models
         public string  Status { get; set; }
 
         public string? Comments { get; set; }
-        public string? TransactionId { get; set; }
+        public string? SessionId { get; set; }
+        public string? PaymentIntentId { get; set; }
         [Display(Name ="Pickup Name")]
         [Required]
         public string PickupName { get; set; }

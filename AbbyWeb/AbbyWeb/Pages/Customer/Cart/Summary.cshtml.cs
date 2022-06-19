@@ -4,6 +4,7 @@ using Abby.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Stripe.Checkout;
 using System.Security.Claims;
 
 namespace AbbyWeb.Pages.Customer.Cart
@@ -39,7 +40,7 @@ namespace AbbyWeb.Pages.Customer.Cart
                 OrderHeader.PhoneNumber = applicationUser.PhoneNumber;
             }
         }
-        public void OnPost()
+        public IActionResult OnPost()
         {
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
@@ -59,7 +60,7 @@ namespace AbbyWeb.Pages.Customer.Cart
                 _unitOfWork.OrderHeader.Add(OrderHeader);
                 _unitOfWork.Save();
 
-                foreach(var item in ShoppingCartList)
+                foreach (var item in ShoppingCartList)
                 {
                     OrderDetails orderDetails = new()
                     {
@@ -73,9 +74,69 @@ namespace AbbyWeb.Pages.Customer.Cart
                     /*_unitOfWork.Save();*/
                 }
 
-                _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartList);
+                /*_unitOfWork.ShoppingCart.RemoveRange(ShoppingCartList);*/
                 _unitOfWork.Save();
+
+
+                var domain = "http://localhost:5286/";
+                var options = new SessionCreateOptions
+                {
+                    LineItems = new List<SessionLineItemOptions>(),
+                
+                /*{
+                  new SessionLineItemOptions
+                  {
+                    PriceData = new SessionLineItemPriceDataOptions
+                    {
+                        UnitAmount = (long)(OrderHeader.OrderTotal*100),
+                        Currency="usd",
+                        ProductData= new SessionLineItemPriceDataProductDataOptions
+                        {
+                            Name="Abby Food Order",
+                            Description="Total Distinct Item -"+quantity
+                        },
+                    },
+                    Quantity=1
+                  },
+                },*/
+                    Mode = "payment",
+                    SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={OrderHeader.Id}",
+                    CancelUrl = domain + "customer/cart/index",
+                };
+
+                //add line items
+                foreach(var item in ShoppingCartList)
+                {
+                    var sessionLineItem = new SessionLineItemOptions
+                    {
+                        PriceData = new SessionLineItemPriceDataOptions
+                        {
+                            UnitAmount = (long)(item.MenuItem.Price * 100),
+                            Currency = "usd",
+                            ProductData = new SessionLineItemPriceDataProductDataOptions
+                            {
+                                Name = item.MenuItem.Name,
+                                
+                            },
+                        },
+                        Quantity = item.Count
+                    };
+                    options.LineItems.Add(sessionLineItem);
+                };
+                
+
+                var service = new SessionService();
+                Session session = service.Create(options);
+
+                Response.Headers.Add("Location", session.Url);
+
+                OrderHeader.SessionId = session.Id;
+                OrderHeader.PaymentIntentId = session.PaymentIntentId;
+                _unitOfWork.Save();
+                return new StatusCodeResult(303);
+
             }
+            return Page();
         }
     }
 }
