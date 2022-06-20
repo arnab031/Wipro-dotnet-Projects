@@ -29,7 +29,7 @@ namespace Abby.Models
 
         [Required]
         [Display(Name ="Pick Up Time")]
-        public DateTime PIckUpTime { get; set; }
+        public DateTime PickUpTime { get; set; }
 
         [Required]
         [NotMapped]

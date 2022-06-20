@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qdkX84shgHDU7ytJZO1NOaq1SSvU134DQG5M3jTFsCQ=",
+  "Hash": "XmVtRUBgibU3uZv0gRKDHFT/qbjO3MSAi5CIUuUu4I0=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -1290,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\menuItem.js"
+    },
+    {
+      "Identity": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\AbbyWeb\\wwwroot\\js\\orderList.js",
+      "SourceId": "AbbyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\AbbyWeb\\wwwroot\\",
+      "BasePath": "_content/AbbyWeb",
+      "RelativePath": "js/orderList.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\orderList.js"
     },
     {
       "Identity": "C:\\Users\\ARNAB-PC\\source\\repos\\Wipro-dotnet-Projects\\AbbyWeb\\AbbyWeb\\wwwroot\\js\\site.js",

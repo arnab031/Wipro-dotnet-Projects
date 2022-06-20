@@ -56,7 +56,7 @@ namespace AbbyWeb.Pages.Customer.Cart
                 OrderHeader.Status = SD.StatusPending;
                 OrderHeader.OrderDate = System.DateTime.Now;
                 OrderHeader.UserId = claim.Value;
-                OrderHeader.PIckUpTime = Convert.ToDateTime(OrderHeader.PickUpDate.ToShortDateString() + " " + OrderHeader.PIckUpTime.ToShortTimeString());
+                OrderHeader.PickUpTime = Convert.ToDateTime(OrderHeader.PickUpDate.ToShortDateString() + " " + OrderHeader.PickUpTime.ToShortTimeString());
                 _unitOfWork.OrderHeader.Add(OrderHeader);
                 _unitOfWork.Save();
 
